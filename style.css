@@ -14,8 +14,8 @@ body {
 }
 
 img.logo {
-    height: 100px;
     width: 30%;
+    object-fit: contain;
 }
 
 ul li.nav-item a.nav-link {
@@ -30,16 +30,32 @@ span {
 }
 
 .header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 10px;
 }
 
 .header img.female {
     width: 90%;
     height:400px;
+    object-fit: contain;
 }
 
+a.btn {
+    background-color: white;
+    color: #00002B;
+    border: 2px solid #00002B;
+}
+
+.btn:hover {
+    color: #C19A6B;
+}
+
+.benefits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
 .benefits i.fas {
     font-size: 40px;
     color: #00002B;
@@ -50,18 +66,32 @@ span {
     font-size: 15px;
 }
 
-.soi {
-    padding-top: 20px;
+.about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 10px;
 }
 
-footer .upper-footer {
-    height: 150px;
-    color: #909293;
-    width: 100%;
+.about-us p {
+    color: #b3b3b3;
 }
 
-footer .lower-footer {
-    color: #909293;
-    height: 60%;
+footer {
+    color: #b3b3b3;
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    display: inline-block;
+    height: auto;
+}
+
+a.top, ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+a.top:hover, ul li a:hover{
+    text-decoration: none;
+    color: #b3b3b3;
 }
