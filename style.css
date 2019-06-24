@@ -10,11 +10,11 @@ body {
     font-stretch: normal;
     line-height: normal;
     text-align: left;
-    font-family: "Open-sans";
+    font-family: "Open-sans", "Source Sans Pro";
 }
 
 img.logo {
-    width: 30%;
+    width: 200px;
     object-fit: contain;
 }
 
@@ -30,9 +30,9 @@ span {
 }
 
 .header {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 50px;
+    margin-top: 8px;
 }
 
 .header img.female {
@@ -68,12 +68,27 @@ a.btn {
 
 .about-us {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     margin-top: 10px;
 }
 
 .about-us p {
     color: #b3b3b3;
+}
+
+.card {
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #C19A6B;
+    box-shadow: 0 5px 5px #909090;
+    border-radius: 10px;
+}
+
+.questions {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-top: 10px;
 }
 
 footer {
