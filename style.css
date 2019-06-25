@@ -10,7 +10,15 @@ body {
     font-stretch: normal;
     line-height: normal;
     text-align: left;
-    font-family: "Open-sans", "Source Sans Pro";
+    font-family: "Open-sans", "Source Sans Pro", "Montserrat";
+}
+
+.navbar {
+    opacity: 0.95;
+    display: flex;
+    padding-top: 0.1px !important;
+    padding-bottom: 0.1px !important;
+    min-height:15px !important;
 }
 
 img.logo {
@@ -89,6 +97,10 @@ a.btn {
     padding-top: 40px;
     padding-bottom: 50px;
     margin-top: 10px;
+}
+
+.questions p {
+    color: #b3b3b3;
 }
 
 footer {
